@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;500&family=Goldman:wght@400;700&family=Grand+Hotel&display=swap');
+
+#root{
+  font-family: 'Goldman', cursive;
+}
+
+.font-hotel{
+  font-family: 'Grand Hotel', cursive;
+}
+
+.font-glory{
+  font-family: 'Glory', sans-serif;
+}
