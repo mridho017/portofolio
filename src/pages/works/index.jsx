@@ -21,7 +21,7 @@ const worksData = [
 
 const Works = () => {
     return (
-        <div className='h-screen p-8 flex md:flex-row flex-col pt-[120px] md:pt-0'>
+        <div className='h-screen p-8 flex md:flex-row flex-col pt-[120px] md:pt-0 scrollbar-hide'>
             <div className='md:w-[30%] md:fixed h-full flex items-center'>
                 <div>
                     <p className='text-white font-glory md:text-5xl text-xl text-cyan md:pb-8'>MY <span className='md:text-7xl text-3xl text-transparent bg-clip-text bg-gradient-to-r from-pink to-blue'>WORKS</span></p>
