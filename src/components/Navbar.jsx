@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div>
                     <Menu />
                 </div>
-                <div className='md:h-20 h-10 md:w-[120px] h-[60px] flex items-center'>
+                <div className='invisible md:h-20 h-10 md:w-[120px] h-[60px] flex items-center'>
                     <img src='/icons/logo.png' alt='error' className='object-cover h-full w-full' />
                 </div>
             </div>

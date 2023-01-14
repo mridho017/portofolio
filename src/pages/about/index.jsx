@@ -65,7 +65,7 @@ const ExperiencesData = [
 
 const About = () => {
     return (
-        <div className='snap-y snap-mandatory overflow-auto h-screen p-8'>
+        <div className='snap-y snap-mandatory overflow-auto h-screen p-8 scrollbar-hide'>
             <div className='grid md:grid-cols-5 grid-cols-1 gap-8 pt-[120px] h-screen snap-start'>
                 <AboutMe />
             </div>
