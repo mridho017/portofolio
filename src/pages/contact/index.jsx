@@ -23,7 +23,7 @@ const contactData = [
 
 const Contact = () => {
     return (
-        <div className='h-screen justify-center p-8 flex md:flex-row flex-col'>
+        <div className='h-screen justify-center p-8 flex md:flex-row flex-col scrollbar-hide'>
             <div className='md:w-[40%] w-full md:h-full flex items-center'>
                 <div>
                     <p className='text-white font-glory text-3xl md:text-7xl text-cyan md:pb-8'> <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink to-blue'>Indonesia</span></p>
